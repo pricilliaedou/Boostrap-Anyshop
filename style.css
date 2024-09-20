@@ -1,0 +1,51 @@
+/********** STYLE DU TOAST **********/
+
+.toast {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+  z-index: 1;
+}
+
+/********** STYLE DU CAROUSEL **********/
+
+#carousel-boutique img {
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+/********** STYLE DES CARDS / LISTE DE PRODUITS **********/
+
+.card {
+  transition: 0.3s ease-out;
+}
+
+.card:hover {
+  -webkit-box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-body a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+
+.card-body a:hover {
+  color: #0275d8;
+}
+
+@media (max-width: 768px) {
+  .card img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+}
+
+/********** STYLE DU FOOTER **********/
+
+.footer {
+  background: #f1f1f1;
+  padding: 40px 0;
+}
